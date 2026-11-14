@@ -6,6 +6,7 @@
 
 > Exploratory PoC, throwaway by default. Written up in
 > [Finding Flaky Playwright Tests That Fail Every Retry](https://garyparker.dev/blog/find-flaky-playwright-tests-across-runs).
+> One-minute video: [youtu.be/gUyfSCLyiZU](https://youtu.be/gUyfSCLyiZU).
 
 ## Method
 
