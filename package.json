@@ -1,0 +1,12 @@
+{
+  "name": "poc-playwright-flaky-detection",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "experiment": "node scripts/run.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "playwright-smart-reporter": "4.0.1"
+  }
+}

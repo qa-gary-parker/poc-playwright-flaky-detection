@@ -1,0 +1,502 @@
+[
+ {
+  "run": 1,
+  "exit": 1,
+  "playwright": {
+   "expected": 18,
+   "unexpected": 2,
+   "flaky": 0
+  },
+  "smart": {
+   "flaky": 0,
+   "grade": "A"
+  },
+  "tests": {
+   "intermittent": {
+    "result": "expected",
+    "status": null,
+    "score": null,
+    "runs": null,
+    "indicator": null
+   },
+   "retry-flaky": {
+    "result": "expected",
+    "status": null,
+    "score": null,
+    "runs": null,
+    "indicator": null
+   },
+   "broken": {
+    "result": "unexpected",
+    "status": null,
+    "score": null,
+    "runs": null,
+    "indicator": null
+   },
+   "fixed in run 5": {
+    "result": "unexpected",
+    "status": null,
+    "score": null,
+    "runs": null,
+    "indicator": null
+   }
+  },
+  "quarantine": []
+ },
+ {
+  "run": 2,
+  "exit": 1,
+  "playwright": {
+   "expected": 17,
+   "unexpected": 3,
+   "flaky": 0
+  },
+  "smart": {
+   "flaky": 0,
+   "grade": "B"
+  },
+  "tests": {
+   "intermittent": {
+    "result": "unexpected",
+    "status": "insufficient-history",
+    "score": 0.5,
+    "runs": 2,
+    "indicator": null
+   },
+   "retry-flaky": {
+    "result": "expected",
+    "status": "insufficient-history",
+    "score": 0,
+    "runs": 2,
+    "indicator": null
+   },
+   "broken": {
+    "result": "unexpected",
+    "status": "insufficient-history",
+    "score": 1,
+    "runs": 2,
+    "indicator": null
+   },
+   "fixed in run 5": {
+    "result": "unexpected",
+    "status": "insufficient-history",
+    "score": 1,
+    "runs": 2,
+    "indicator": null
+   }
+  },
+  "quarantine": []
+ },
+ {
+  "run": 3,
+  "exit": 1,
+  "playwright": {
+   "expected": 17,
+   "unexpected": 2,
+   "flaky": 1
+  },
+  "smart": {
+   "flaky": 1,
+   "grade": "A"
+  },
+  "tests": {
+   "intermittent": {
+    "result": "expected",
+    "status": "insufficient-history",
+    "score": 0.33,
+    "runs": 3,
+    "indicator": null
+   },
+   "retry-flaky": {
+    "result": "flaky",
+    "status": "flaky",
+    "score": 0.33,
+    "runs": 3,
+    "indicator": null
+   },
+   "broken": {
+    "result": "unexpected",
+    "status": "insufficient-history",
+    "score": 1,
+    "runs": 3,
+    "indicator": null
+   },
+   "fixed in run 5": {
+    "result": "unexpected",
+    "status": "insufficient-history",
+    "score": 1,
+    "runs": 3,
+    "indicator": null
+   }
+  },
+  "quarantine": [
+   "retry-flaky: checkout confirms the order"
+  ]
+ },
+ {
+  "run": 4,
+  "exit": 1,
+  "playwright": {
+   "expected": 18,
+   "unexpected": 2,
+   "flaky": 0
+  },
+  "smart": {
+   "flaky": 0,
+   "grade": "A"
+  },
+  "tests": {
+   "intermittent": {
+    "result": "expected",
+    "status": "insufficient-history",
+    "score": 0.25,
+    "runs": 4,
+    "indicator": null
+   },
+   "retry-flaky": {
+    "result": "expected",
+    "status": "insufficient-history",
+    "score": 0.25,
+    "runs": 4,
+    "indicator": null
+   },
+   "broken": {
+    "result": "unexpected",
+    "status": "insufficient-history",
+    "score": 1,
+    "runs": 4,
+    "indicator": null
+   },
+   "fixed in run 5": {
+    "result": "unexpected",
+    "status": "insufficient-history",
+    "score": 1,
+    "runs": 4,
+    "indicator": null
+   }
+  },
+  "quarantine": []
+ },
+ {
+  "run": 5,
+  "exit": 1,
+  "playwright": {
+   "expected": 18,
+   "unexpected": 2,
+   "flaky": 0
+  },
+  "smart": {
+   "flaky": 0,
+   "grade": "B"
+  },
+  "tests": {
+   "intermittent": {
+    "result": "unexpected",
+    "status": "flaky",
+    "score": 0.4,
+    "runs": 5,
+    "indicator": null
+   },
+   "retry-flaky": {
+    "result": "expected",
+    "status": "unstable",
+    "score": 0.2,
+    "runs": 5,
+    "indicator": null
+   },
+   "broken": {
+    "result": "unexpected",
+    "status": "failing",
+    "score": 1,
+    "runs": 5,
+    "indicator": null
+   },
+   "fixed in run 5": {
+    "result": "expected",
+    "status": "stable",
+    "score": 0.8,
+    "runs": 5,
+    "indicator": null
+   }
+  },
+  "quarantine": [
+   "intermittent: search returns results"
+  ]
+ },
+ {
+  "run": 6,
+  "exit": 1,
+  "playwright": {
+   "expected": 19,
+   "unexpected": 1,
+   "flaky": 0
+  },
+  "smart": {
+   "flaky": 0,
+   "grade": "A"
+  },
+  "tests": {
+   "intermittent": {
+    "result": "expected",
+    "status": "flaky",
+    "score": 0.33,
+    "runs": 6,
+    "indicator": null
+   },
+   "retry-flaky": {
+    "result": "expected",
+    "status": "unstable",
+    "score": 0.17,
+    "runs": 6,
+    "indicator": null
+   },
+   "broken": {
+    "result": "unexpected",
+    "status": "failing",
+    "score": 1,
+    "runs": 6,
+    "indicator": null
+   },
+   "fixed in run 5": {
+    "result": "expected",
+    "status": "stable",
+    "score": 0.67,
+    "runs": 6,
+    "indicator": null
+   }
+  },
+  "quarantine": [
+   "intermittent: search returns results"
+  ]
+ },
+ {
+  "run": 7,
+  "exit": 1,
+  "playwright": {
+   "expected": 18,
+   "unexpected": 2,
+   "flaky": 0
+  },
+  "smart": {
+   "flaky": 0,
+   "grade": "A"
+  },
+  "tests": {
+   "intermittent": {
+    "result": "unexpected",
+    "status": "flaky",
+    "score": 0.43,
+    "runs": 7,
+    "indicator": null
+   },
+   "retry-flaky": {
+    "result": "expected",
+    "status": "unstable",
+    "score": 0.14,
+    "runs": 7,
+    "indicator": null
+   },
+   "broken": {
+    "result": "unexpected",
+    "status": "failing",
+    "score": 1,
+    "runs": 7,
+    "indicator": null
+   },
+   "fixed in run 5": {
+    "result": "expected",
+    "status": "stable",
+    "score": 0.57,
+    "runs": 7,
+    "indicator": null
+   }
+  },
+  "quarantine": [
+   "intermittent: search returns results"
+  ]
+ },
+ {
+  "run": 8,
+  "exit": 1,
+  "playwright": {
+   "expected": 18,
+   "unexpected": 1,
+   "flaky": 1
+  },
+  "smart": {
+   "flaky": 1,
+   "grade": "A"
+  },
+  "tests": {
+   "intermittent": {
+    "result": "expected",
+    "status": "flaky",
+    "score": 0.38,
+    "runs": 8,
+    "indicator": null
+   },
+   "retry-flaky": {
+    "result": "flaky",
+    "status": "flaky",
+    "score": 0.25,
+    "runs": 8,
+    "indicator": null
+   },
+   "broken": {
+    "result": "unexpected",
+    "status": "failing",
+    "score": 1,
+    "runs": 8,
+    "indicator": null
+   },
+   "fixed in run 5": {
+    "result": "expected",
+    "status": "stable",
+    "score": 0.5,
+    "runs": 8,
+    "indicator": null
+   }
+  },
+  "quarantine": [
+   "intermittent: search returns results"
+  ]
+ },
+ {
+  "run": 9,
+  "exit": 1,
+  "playwright": {
+   "expected": 19,
+   "unexpected": 1,
+   "flaky": 0
+  },
+  "smart": {
+   "flaky": 0,
+   "grade": "A"
+  },
+  "tests": {
+   "intermittent": {
+    "result": "expected",
+    "status": "flaky",
+    "score": 0.33,
+    "runs": 9,
+    "indicator": null
+   },
+   "retry-flaky": {
+    "result": "expected",
+    "status": "unstable",
+    "score": 0.22,
+    "runs": 9,
+    "indicator": null
+   },
+   "broken": {
+    "result": "unexpected",
+    "status": "failing",
+    "score": 1,
+    "runs": 9,
+    "indicator": null
+   },
+   "fixed in run 5": {
+    "result": "expected",
+    "status": "stable",
+    "score": 0.44,
+    "runs": 9,
+    "indicator": null
+   }
+  },
+  "quarantine": [
+   "intermittent: search returns results"
+  ]
+ },
+ {
+  "run": 10,
+  "exit": 1,
+  "playwright": {
+   "expected": 18,
+   "unexpected": 2,
+   "flaky": 0
+  },
+  "smart": {
+   "flaky": 0,
+   "grade": "A"
+  },
+  "tests": {
+   "intermittent": {
+    "result": "unexpected",
+    "status": "flaky",
+    "score": 0.4,
+    "runs": 10,
+    "indicator": null
+   },
+   "retry-flaky": {
+    "result": "expected",
+    "status": "unstable",
+    "score": 0.2,
+    "runs": 10,
+    "indicator": null
+   },
+   "broken": {
+    "result": "unexpected",
+    "status": "failing",
+    "score": 1,
+    "runs": 10,
+    "indicator": null
+   },
+   "fixed in run 5": {
+    "result": "expected",
+    "status": "stable",
+    "score": 0.4,
+    "runs": 10,
+    "indicator": null
+   }
+  },
+  "quarantine": [
+   "intermittent: search returns results"
+  ]
+ },
+ {
+  "run": 11,
+  "exit": 1,
+  "playwright": {
+   "expected": 19,
+   "unexpected": 1,
+   "flaky": 0
+  },
+  "smart": {
+   "flaky": 0,
+   "grade": "A"
+  },
+  "tests": {
+   "intermittent": {
+    "result": "expected",
+    "status": "flaky",
+    "score": 0.36,
+    "runs": 11,
+    "indicator": null
+   },
+   "retry-flaky": {
+    "result": "expected",
+    "status": "unstable",
+    "score": 0.18,
+    "runs": 11,
+    "indicator": null
+   },
+   "broken": {
+    "result": "unexpected",
+    "status": "failing",
+    "score": 1,
+    "runs": 11,
+    "indicator": null
+   },
+   "fixed in run 5": {
+    "result": "expected",
+    "status": "stable",
+    "score": 0.36,
+    "runs": 11,
+    "indicator": null
+   }
+  },
+  "quarantine": [
+   "intermittent: search returns results"
+  ]
+ }
+]
