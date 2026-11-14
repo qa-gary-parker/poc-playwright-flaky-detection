@@ -5,7 +5,7 @@
 **The answer:** in 11 runs, one test failed 4 times and passed 7 times. Playwright's report never called it flaky, because it failed both attempts in each bad run. [playwright-smart-reporter](https://github.com/qa-gary-parker/playwright-smart-reporter) marked it `flaky` from run 5 and quarantined it from run 5 to run 11. It did not quarantine a test that fails every run, or a test that was broken and then fixed.
 
 > Exploratory PoC, throwaway by default. Written up in
-> [How to Find Flaky Playwright Tests That Retries Never Catch](https://garyparker.dev/blog/find-flaky-playwright-tests-across-runs).
+> [Finding Flaky Playwright Tests That Fail Every Retry](https://garyparker.dev/blog/find-flaky-playwright-tests-across-runs).
 
 ## Method
 
@@ -40,9 +40,10 @@
 ## Limits
 
 - The outcomes are scripted. Real flaky tests do not fail on a schedule.
-- No browser, no network, one worker machine.
+- No browser, no network, one machine with 4 workers.
 - One version of each tool. The statuses follow the reporter's defaults (`flakinessUnstable` 0.3, `flakinessStable` 0.1, `maxHistoryRuns` 10).
-- The quarantine file is a record. The quarantined test still ran in every run.
+- The quarantine file is a record. The quarantined test still ran in every run. Every run exits with code 1, because the broken test always fails.
+- Only `retries: 1` was run. Quality gates were not tested.
 
 ## Reproduce
 
